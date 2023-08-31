@@ -11,7 +11,7 @@ Var
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreval ("Operações matemáticas")
+   escreval ("---Operações matemáticas---")
    escreva ("Informe um número inteiro ")
    leia (numeroA)
    escreva ("Informe outro número inteiro ")
@@ -26,8 +26,8 @@ Inicio
    escreval ("A subtração dos números informados é igual a: ", subtracao)
    escreval ("A multiplicação entre os números informados é igual a: ", multiplicacao)
    escreval ("A divisão entre os números informados é igual a: ", divisao)
-   escreval (numeroA, " elevado a potência de:", numeroB, " é igual a: ", potencia)
-   escreva ("O resto da divisão dos números: ",numeroA, " e ", numeroB, " é de: ", restoDivisao)
+   escreval (numeroA, " elevado a potência de", numeroB, " é igual a: ", potencia)
+   escreva ("O resto da divisão de ", numeroA, " dividido por ", numeroB, " é igual a: ", restoDivisao)
    
    
 
