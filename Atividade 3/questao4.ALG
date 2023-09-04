@@ -1,22 +1,22 @@
 Algoritmo "questao4"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 30/08/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    volume, altura, raio: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreval ("Calculando o volume de uma lata ")
-   escreva ("Digite a altura da lata ")
+   escreva ("Digite a altura da lata: ")
    leia (altura)
-   escreva ("Digite o raio da lata ")
+   escreva ("Digite o raio da lata: ")
    leia (raio)
    volume <-  pi * (raio^2) * altura
-   escreva ("O volume da lata é: ", volume)
+   escreva ("O volume da lata Ã©: ", volume)
    
 
 Fimalgoritmo
