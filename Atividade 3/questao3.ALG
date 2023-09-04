@@ -10,11 +10,12 @@ Var
 
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva (" Informe o lucro de Janeiro ")
+   escreval("---Calculando média de lucro---")
+   escreva (" Informe o lucro de Janeiro: ")
    leia (lucroJan)
-   escreva (" Informe o lucro de Fevereiro ")
+   escreva (" Informe o lucro de Fevereiro: ")
    leia (lucroFev)
-   escreva (" Informe o lucro de Março ")
+   escreva (" Informe o lucro de Março: ")
    leia (lucroMar)
    numMeses <- 3
    media <- (lucroJan + lucroFev + lucroMar) / numMeses
