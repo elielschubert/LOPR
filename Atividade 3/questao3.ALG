@@ -1,23 +1,23 @@
 Algoritmo "questao3"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 29/08/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    lucroJan, lucroFev, lucroMar, media, numMeses: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva (" Informe o lucro de Janeiro ")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   escreva (" Informe o lucro de Janeiro: ")
    leia (lucroJan)
-   escreva (" Informe o lucro de Fevereiro ")
+   escreva (" Informe o lucro de Fevereiro: ")
    leia (lucroFev)
-   escreva (" Informe o lucro de Março ")
+   escreva (" Informe o lucro de MarÃ§o: ")
    leia (lucroMar)
    numMeses <- 3
    media <- (lucroJan + lucroFev + lucroMar) / numMeses
-   escreva (" A média de lucro é de: ", media)
+   escreva (" A mÃ©dia de lucro Ã© de: ", media)
 
 Fimalgoritmo
