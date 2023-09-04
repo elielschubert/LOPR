@@ -14,7 +14,7 @@ Inicio
    escreva ("Informe a temperatura em graus Fahrenheit: ")
    leia (grauF)
    grauC <- 5 * (grauF - 32) / 9
-   escreva (grauF,"°F equivale a ", grauC, " °C")
+   escreva (grauF,"°F equivale a ", grauC:2:2, " °C")
 
 
 Fimalgoritmo
