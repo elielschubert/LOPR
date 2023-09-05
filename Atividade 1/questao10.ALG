@@ -1,20 +1,20 @@
 Algoritmo "semnome"
 //
 //
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 30/08/2023
 Var
-   // Seção de Declarações das variáveis
-   grauC, grauF, conversao: real
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+   grauC, grauF: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    escreval ("Convertendo grau Celsius para grau Fahrenheit")
    escreva ("Informe a temperatura em graus Fahrenheit: ")
    leia (grauF)
    grauC <- 5 * (grauF - 32) / 9
-   escreva (grauF,"°F equivalem a ", grauC, " °C")
+   escreva (grauF,"Â°F equivale a ", grauC:2:2, " Â°C")
 
 
 Fimalgoritmo
