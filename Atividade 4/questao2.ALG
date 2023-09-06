@@ -13,10 +13,10 @@ Inicio
    escreval ("---Verificando se um número é par ou ímpar---")
    escreva ("Digite um número: ")
    leia (numero)
-        se numero % 2 = 0 entao
-        escreva ("O número escolhido é par!")
+   se numero % 2 = 0 entao
+      escreva ("O número escolhido é par!")
    senão
-        escreva ("O número escolhido é ímpar!")
+      escreva ("O número escolhido é ímpar!")
    fimse
 
 Fimalgoritmo
